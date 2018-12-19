@@ -15,6 +15,19 @@ import Layout from "../layout";
 import config from "../../data/SiteConfig";
 
 class GroupsPage extends Component {
+  state = {
+    joined: false,
+    loading: false
+  };
+
+  handleJoin = e => {
+    e.preventDefault();
+    this.setState({ loading: true });
+    setTimeout(() => {
+      this.setState({ joined: true, loading: false });
+    }, 2000);
+  };
+
   render() {
     return (
       <Layout location={this.props.location} title="Groups">
@@ -33,10 +46,29 @@ class GroupsPage extends Component {
               </TableHeader>
               <TableBody>
                 <TableRow key="joined">
-                  <TableColumn>Staff team</TableColumn>
+                  <TableColumn>Football team</TableColumn>
                   <TableColumn>
                     <FontIcon iconClassName="fa fa-check" />{" "}
                     <span className="md-title">JOINED</span>
+                  </TableColumn>
+                </TableRow>
+                <TableRow key="not-joined">
+                  <TableColumn>Staff team</TableColumn>
+                  <TableColumn>
+                    {this.state.joined === true ? (
+                      <div>
+                        <FontIcon iconClassName="fa fa-check" />
+                        <span className="md-title">JOINED</span>
+                      </div>
+                    ) : (
+                      <Button onClick={this.handleJoin} secondary raised>
+                        {this.state.loading === true ? (
+                          <span>Sending...</span>
+                        ) : (
+                          <span>Join group</span>
+                        )}
+                      </Button>
+                    )}
                   </TableColumn>
                 </TableRow>
                 {Array.from(Array(10)).map((_, i) => (
