@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-material",
-  "description": "GatsbyJS Material Blog theme.",
+  "name": "one-coventry-site",
+  "description": "one Coventry PWA for ESFA",
   "version": "2.0.0",
-  "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
+  "author": "Greg Barnes <gregdbarnes@gmail.com>",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gatsby": "2.0.40",
