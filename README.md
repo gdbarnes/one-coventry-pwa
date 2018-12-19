@@ -1,4 +1,4 @@
-# one Coventry site for ESFA hackathon
+# one Coventry PWA for ESFA hackathon
 
 ## Uses:
 
