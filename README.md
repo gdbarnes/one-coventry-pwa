@@ -1,11 +1,11 @@
-# one Coventry PWA for ESFA hackathon
+# 'one Coventry'
+## PWA for ESFA hackathon
 
-## Uses:
+### Uses:
 
-https://www.gatsbyjs.org/
+- https://www.gatsbyjs.org/
+- https://material.io/
 
-https://material.io/
+### Based on:
 
-## Based on:
-
-https://github.com/Vagr9K/gatsby-material-starter
+- https://github.com/Vagr9K/gatsby-material-starter
