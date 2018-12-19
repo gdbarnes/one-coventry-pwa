@@ -1,5 +1,4 @@
-## one Coventry
-## PWA for ESFA hackathon
+# one Coventry - A PWA created for ESFA hackathon
 
 ### Uses:
 
