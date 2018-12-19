@@ -1,0 +1,54 @@
+@import "~react-md/src/scss/react-md";
+$md-primary-color: $md-grey-400;
+$md-secondary-color: $md-grey-800;
+$md-tertiary-color: $md-grey-300;
+
+.main-container,
+.darker-background {
+  background-color: $md-tertiary-color;
+}
+
+.about-container {
+  padding: 16px 8px;
+}
+
+a:link {
+  color: $md-secondary-color;
+  text-decoration: none;
+}
+
+.md-background--primary {
+  background: #222;
+  color: #fff;
+}
+
+// Nasty green
+.md-paper--0 {
+  box-shadow: none;
+  background: #73ad49;
+}
+
+h3,
+.md-title {
+  letter-spacing: 0px;
+}
+
+@media screen and (min-width: 1025px) {
+  .md-tile-addon--icon {
+    height: 24px;
+  }
+}
+
+// @media screen and (min-width: 1025px) {
+//   .material-icons.md-icon {
+//     font-size: 24px;
+//   }
+// }
+
+.footer {
+  padding: 10px 5px;
+}
+
+.post-page-contents .post .post-body > h1 {
+  margin-top: 0;
+}
