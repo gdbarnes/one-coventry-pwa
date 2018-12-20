@@ -10,6 +10,7 @@ $md-tertiary-color: $md-grey-300;
 
 .about-container {
   padding: 16px 8px;
+  min-height: calc(100vh - 116px);
 }
 
 a:link {
@@ -18,7 +19,7 @@ a:link {
 }
 
 .md-background--primary {
-  background: #222;
+  background: #222 !important;
   color: #fff;
 }
 
@@ -31,6 +32,16 @@ a:link {
 h3,
 .md-title {
   letter-spacing: 0px;
+}
+
+@media screen and (min-width: 1025px) {
+  .md-card-title:last-child {
+    padding-bottom: 24px !important;
+  }
+}
+
+.md-card-title:last-child {
+  padding-bottom: 16px !important;
 }
 
 @media screen and (min-width: 1025px) {
@@ -51,4 +62,8 @@ h3,
 
 .post-page-contents .post .post-body > h1 {
   margin-top: 0;
+}
+
+.md-card-title:last-child {
+  padding-bottom: 16px;
 }

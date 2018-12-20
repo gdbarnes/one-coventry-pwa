@@ -20,17 +20,17 @@ module.exports = {
   userAvatar:
     "https://us.123rf.com/450wm/pooterjon/pooterjon0912/pooterjon091200015/6106186-a-cute-cartoon-santa-in-a-snowy-circle-.jpg", // User avatar to display in the author segment.
   userDescription:
-    "Ho, ho, ho, my name is Santa Claus, but you may know me as Saint Nicholas or Father Christmas.", // User description to display in the author segment.
+    "Ho, ho, ho, my name is Santa Claus. I hope you've all been good boys and girls this year! 🎁", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
       label: "Announcements",
-      url: "#",
+      url: "/empty",
       iconClassName: "fa fa-bullhorn"
     },
     {
       label: "Messages",
-      url: "#",
+      url: "/empty",
       iconClassName: "fa fa-envelope"
     },
     {
@@ -40,12 +40,12 @@ module.exports = {
     },
     {
       label: "Directory",
-      url: "#",
+      url: "/empty",
       iconClassName: "fa fa-address-book"
     },
     {
       label: "Wellbeing",
-      url: "#",
+      url: "/empty",
       iconClassName: "fa fa-heartbeat"
     }
   ],

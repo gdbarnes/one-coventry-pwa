@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
-import { Button, SVGIcon } from "react-md";
-import UserLinks from "../UserLinks";
+import { Button } from "react-md";
 import config from "../../../data/SiteConfig";
 import "./About.scss";
 

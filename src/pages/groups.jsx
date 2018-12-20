@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Card from "react-md/lib/Cards/Card";
-import CardText from "react-md/lib/Cards/CardText";
 import {
   Button,
   DataTable,
@@ -33,7 +32,7 @@ class GroupsPage extends Component {
       <Layout location={this.props.location} title="Groups">
         <div className="about-container">
           <Helmet>
-            <title>{`Profile | ${config.siteTitle}`}</title>
+            <title>{`Groups | ${config.siteTitle}`}</title>
             <link rel="canonical" href={`${config.siteUrl}/profile/`} />
           </Helmet>
           <Card className="md-grid md-cell--8">
