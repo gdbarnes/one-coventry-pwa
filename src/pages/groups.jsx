@@ -45,14 +45,14 @@ class GroupsPage extends Component {
               </TableHeader>
               <TableBody>
                 <TableRow key="joined">
-                  <TableColumn>Football team</TableColumn>
+                  <TableColumn>#1 Hackathon club</TableColumn>
                   <TableColumn>
                     <FontIcon iconClassName="fa fa-check" />{" "}
                     <span className="md-title">JOINED</span>
                   </TableColumn>
                 </TableRow>
                 <TableRow key="not-joined">
-                  <TableColumn>Staff team</TableColumn>
+                  <TableColumn>Elf club</TableColumn>
                   <TableColumn>
                     {this.state.joined === true ? (
                       <div>
@@ -70,7 +70,48 @@ class GroupsPage extends Component {
                     )}
                   </TableColumn>
                 </TableRow>
-                {Array.from(Array(10)).map((_, i) => (
+                <TableRow key="joined">
+                  <TableColumn>Snowball club</TableColumn>
+                  <TableColumn>
+                    <Button secondary raised>
+                      Join group
+                    </Button>
+                  </TableColumn>
+                </TableRow>
+                <TableRow key="joined">
+                  <TableColumn>Sleigh club</TableColumn>
+                  <TableColumn>
+                    <Button secondary raised>
+                      Join group
+                    </Button>
+                  </TableColumn>
+                </TableRow>
+                <TableRow key="joined">
+                  <TableColumn>Gift wrapping club</TableColumn>
+                  <TableColumn>
+                    <Button secondary raised>
+                      Join group
+                    </Button>
+                  </TableColumn>
+                </TableRow>
+                <TableRow key="joined">
+                  <TableColumn>Toy making club</TableColumn>
+                  <TableColumn>
+                    <Button secondary raised>
+                      Join group
+                    </Button>
+                  </TableColumn>
+                </TableRow>
+                <TableRow key="joined">
+                  <TableColumn>Eggnog Anonymous</TableColumn>
+                  <TableColumn>
+                    <Button secondary raised>
+                      Join group
+                    </Button>
+                  </TableColumn>
+                </TableRow>
+
+                {/* {Array.from(Array(10)).map((_, i) => (
                   <TableRow key={i}>
                     <TableColumn>Other group {i + 1}</TableColumn>
                     <TableColumn>
@@ -79,7 +120,7 @@ class GroupsPage extends Component {
                       </Button>
                     </TableColumn>
                   </TableRow>
-                ))}
+                ))} */}
               </TableBody>
             </DataTable>
           </Card>

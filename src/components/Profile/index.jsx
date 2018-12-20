@@ -7,6 +7,10 @@ import config from "../../../data/SiteConfig";
 import "./Profile.scss";
 
 class About extends Component {
+  handleNotificationClick = () => {
+    console.log("clicked");
+  };
+
   render() {
     return (
       <div className="md-grid mobile-fix">
@@ -37,7 +41,6 @@ class About extends Component {
               label="Cheylesmore house notifications"
               type="checkbox"
               value="documentation"
-              defaultChecked
             />
             <SelectionControl
               id="checkbox-canteen-notifications"
@@ -45,7 +48,6 @@ class About extends Component {
               label="Canteen notifications"
               type="checkbox"
               value="documentation"
-              defaultChecked
             />
             <SelectionControl
               id="checkbox-carpark-notifications"
@@ -53,7 +55,6 @@ class About extends Component {
               label="Car park notifications"
               type="checkbox"
               value="documentation"
-              defaultChecked
             />
           </div>
         </Card>
