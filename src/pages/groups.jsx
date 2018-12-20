@@ -110,6 +110,14 @@ class GroupsPage extends Component {
                     </Button>
                   </TableColumn>
                 </TableRow>
+                <TableRow key="joined">
+                  <TableColumn>Bauble polishing club</TableColumn>
+                  <TableColumn>
+                    <Button secondary raised>
+                      Join group
+                    </Button>
+                  </TableColumn>
+                </TableRow>
 
                 {/* {Array.from(Array(10)).map((_, i) => (
                   <TableRow key={i}>

@@ -7,8 +7,17 @@ import config from "../../../data/SiteConfig";
 import "./Profile.scss";
 
 class About extends Component {
+  state = {
+    saved: false,
+    loading: false
+  };
+
   handleNotificationClick = () => {
     console.log("clicked");
+    this.setState({ loading: true });
+    setTimeout(() => {
+      this.setState({ saved: true, loading: false });
+    }, 2000);
   };
 
   render() {
@@ -27,6 +36,8 @@ class About extends Component {
             </CardText>
             {/* <UserLinks labeled config={config} /> */}
             <h3>Notification settings</h3>
+
+            {/* {this.state.saved && !this.state.loading ? <p>Saved</p> : null} */}
             <SelectionControl
               id="checkbox-it-notifications"
               name="simple-checkboxes[]"
@@ -55,6 +66,7 @@ class About extends Component {
               label="Car park notifications"
               type="checkbox"
               value="documentation"
+              onChange={this.handleNotificationClick}
             />
           </div>
         </Card>
