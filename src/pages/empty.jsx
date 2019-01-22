@@ -16,8 +16,8 @@ class EmptyPage extends Component {
           </Helmet>
           <Card className="md-grid md-cell--8">
             <CardTitle
-              title="Nothing to see here"
-              subtitle="Back away slowly"
+              title="Section under construction"
+              subtitle="Come back soon"
             />
           </Card>
         </div>
