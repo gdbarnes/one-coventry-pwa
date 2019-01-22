@@ -67,3 +67,9 @@ h3,
 .md-card-title:last-child {
   padding-bottom: 16px;
 }
+
+@media screen and (min-width: 320px) {
+  .md-btn--text {
+    height: auto;
+  }
+}
