@@ -8,7 +8,7 @@ import UserInfo from "../components/UserInfo";
 import PostTags from "../components/PostTags";
 import PostCover from "../components/PostCover";
 import PostInfo from "../components/PostInfo";
-import SocialLinks from "../components/SocialLinks";
+// import SocialLinks from "../components/SocialLinks";
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
 import "./b16-tomorrow-dark.css";
@@ -78,18 +78,18 @@ export default class PostTemplate extends React.Component {
               </CardText>
               <div className="post-meta">
                 <PostTags tags={post.tags} />
-                <SocialLinks
+                {/* <SocialLinks
                   postPath={slug}
                   postNode={postNode}
                   mobile={this.state.mobile}
-                />
+                /> */}
               </div>
             </Card>
-            <UserInfo
+            {/* <UserInfo
               className="md-grid md-cell md-cell--12"
               config={config}
               expanded={expanded}
-            />
+            /> */}
             {/* <Disqus postNode={postNode} expanded={expanded} /> */}
           </div>
 
