@@ -114,8 +114,13 @@ module.exports = {
         start_url: config.pathPrefix,
         background_color: "#e0e0e0",
         theme_color: "#70ad46",
-        display: "minimal-ui",
+        display: "standalone",
         icons: [
+          {
+            src: "/logos/logo-48.png",
+            sizes: "48x48",
+            type: "image/png"
+          },
           {
             src: "/logos/logo-192.png",
             sizes: "192x192",
@@ -124,6 +129,11 @@ module.exports = {
           {
             src: "/logos/logo-512.png",
             sizes: "512x512",
+            type: "image/png"
+          },
+          {
+            src: "/logos/logo-1024.png",
+            sizes: "1024x1024",
             type: "image/png"
           }
         ]
