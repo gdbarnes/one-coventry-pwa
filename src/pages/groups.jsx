@@ -45,14 +45,14 @@ class GroupsPage extends Component {
               </TableHeader>
               <TableBody>
                 <TableRow key="joined">
-                  <TableColumn>#1 Hackathon club</TableColumn>
+                  <TableColumn>The book group</TableColumn>
                   <TableColumn>
                     <FontIcon iconClassName="fa fa-check" />{" "}
                     <span className="md-title">JOINED</span>
                   </TableColumn>
                 </TableRow>
                 <TableRow key="not-joined">
-                  <TableColumn>Elf club</TableColumn>
+                  <TableColumn>Lunchtime walks</TableColumn>
                   <TableColumn>
                     {this.state.joined === true ? (
                       <div>
@@ -71,7 +71,7 @@ class GroupsPage extends Component {
                   </TableColumn>
                 </TableRow>
                 <TableRow key="joined">
-                  <TableColumn>Snowball club</TableColumn>
+                  <TableColumn>Football club</TableColumn>
                   <TableColumn>
                     <Button secondary raised>
                       Join group
@@ -79,7 +79,7 @@ class GroupsPage extends Component {
                   </TableColumn>
                 </TableRow>
                 <TableRow key="joined">
-                  <TableColumn>Sleigh club</TableColumn>
+                  <TableColumn>Tennis club</TableColumn>
                   <TableColumn>
                     <Button secondary raised>
                       Join group
@@ -87,7 +87,7 @@ class GroupsPage extends Component {
                   </TableColumn>
                 </TableRow>
                 <TableRow key="joined">
-                  <TableColumn>Gift wrapping club</TableColumn>
+                  <TableColumn>Baking club</TableColumn>
                   <TableColumn>
                     <Button secondary raised>
                       Join group
@@ -95,7 +95,7 @@ class GroupsPage extends Component {
                   </TableColumn>
                 </TableRow>
                 <TableRow key="joined">
-                  <TableColumn>Toy making club</TableColumn>
+                  <TableColumn>Swimming club</TableColumn>
                   <TableColumn>
                     <Button secondary raised>
                       Join group
@@ -103,7 +103,7 @@ class GroupsPage extends Component {
                   </TableColumn>
                 </TableRow>
                 <TableRow key="joined">
-                  <TableColumn>Eggnog Anonymous</TableColumn>
+                  <TableColumn>Running club</TableColumn>
                   <TableColumn>
                     <Button secondary raised>
                       Join group
@@ -111,7 +111,7 @@ class GroupsPage extends Component {
                   </TableColumn>
                 </TableRow>
                 <TableRow key="joined">
-                  <TableColumn>Bauble polishing club</TableColumn>
+                  <TableColumn>Coffee appreciation society</TableColumn>
                   <TableColumn>
                     <Button secondary raised>
                       Join group

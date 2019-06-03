@@ -14,13 +14,13 @@ module.exports = {
   postDefaultCategoryID: "Tech", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
-  userName: "Father Christmas", // Username to display in the author segment.
+  userName: "Jane Doe", // Username to display in the author segment.
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
-  userLocation: "North Pole, Earth", // User location to display in the author segment.
+  userLocation: "ESFA, South Building, ", // User location to display in the author segment.
   userAvatar:
-    "https://us.123rf.com/450wm/pooterjon/pooterjon0912/pooterjon091200015/6106186-a-cute-cartoon-santa-in-a-snowy-circle-.jpg", // User avatar to display in the author segment.
+    "https://projects.scpr.org/static-files/_v4/images/default_avatar.png", // User avatar to display in the author segment.
   userDescription:
-    "Ho, ho, ho, my name is Santa Claus. I hope you've all been good boys and girls this year! 🎁", // User description to display in the author segment.
+    "I work at ESFA. You can contact me to learn a bit more about the ONE Coventry app and it's progress.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
