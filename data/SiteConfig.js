@@ -14,9 +14,9 @@ module.exports = {
   postDefaultCategoryID: "Tech", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
-  userName: "Jane Doe", // Username to display in the author segment.
+  userName: "Joe Bloggs", // Username to display in the author segment.
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
-  userLocation: "ESFA, South Building, ", // User location to display in the author segment.
+  userLocation: "ESFA, North Building, Cheylesmore House, 5 Quinton Rd, Coventry CV1 2WT", // User location to display in the author segment.
   userAvatar:
     "https://projects.scpr.org/static-files/_v4/images/default_avatar.png", // User avatar to display in the author segment.
   userDescription:
