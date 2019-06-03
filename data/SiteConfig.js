@@ -20,7 +20,7 @@ module.exports = {
   userAvatar:
     "https://projects.scpr.org/static-files/_v4/images/default_avatar.png", // User avatar to display in the author segment.
   userDescription:
-    "I work at ESFA. You can contact me to learn a bit more about the ONE Coventry app and it's progress.", // User description to display in the author segment.
+    "You can contact me to learn a more about the ONE Coventry application and it's features", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
